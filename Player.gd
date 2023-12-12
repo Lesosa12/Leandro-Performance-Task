@@ -21,5 +21,5 @@ func _process(delta):
 	
 	if velocity.length() > 0:
 		velocity = velocity.normalized() * speed
-	else:
-		position += velocity * delta
+	
+	position += velocity * delta
